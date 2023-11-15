@@ -1,12 +1,25 @@
 <template>
     <div>
         <div class="relative group">
-            <img 
-            :src="getImageUrl(info.img)" 
-            alt="info.title" 
-            class="w-[500px] inset-0 object-cover"
-            loading="lazy"
+            <img
+                v-if="imgLoaded"
+                :src="getImageUrl(info.img)" 
+                alt="info.title" 
+                class="w-full lg:h-96 md:h-80 h-72 inset-0 object-cover"
+                loading="lazy"
             />
+            <div v-else
+                class="w-full lg:h-96 md:h-80 h-72 border border-gray-200 bg-gray-400 px-6 py-20"
+            > 
+                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
+                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
+                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
+                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
+                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
+
+            </div>
+
+            
             <div class="absolute w-full h-full text-3xl bottom-0">
                 <div 
                     class="flex backdrop-blur-md transition-all transform 
@@ -53,6 +66,16 @@
 </template>
 <script setup>
 import { getImageUrl } from '../helpers/link';
+import {ref} from "vue";
+
+
+const imgLoaded = ref(false);
+
+
+const loadImg = setTimeout(() => {
+    imgLoaded.value = true;
+    loadImg();
+}, 4000)
 
 defineProps([
     "info"
