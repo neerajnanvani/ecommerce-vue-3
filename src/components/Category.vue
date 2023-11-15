@@ -11,15 +11,11 @@
     </div>
 </template>
 <script setup>
-import { defineProps } from 'vue';
+import { getImageUrl } from '../helpers/link';
 
 defineProps([
     'categoryImg', 'categoryTitle'
 ]);
-
-const getImageUrl  = (imgLink) => {
-    return new URL(`../assets/${imgLink}`, import.meta.url)
-} 
 </script>
 <style scoped>
 p {

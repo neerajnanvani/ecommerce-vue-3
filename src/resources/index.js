@@ -29,7 +29,7 @@ const firstCategories = [
 const firstListing = [
     {
         id: 1,
-        img: "model2",
+        img: "model2.webp",
         title: "Men henley neck design full color",
         mainPrice: "1299",
         newPrice: "299",
@@ -37,7 +37,7 @@ const firstListing = [
     },
     {
         id: 1,
-        img: "model1",
+        img: "model1.webp",
         title: "Men hmmffn kofan design full color",
         mainPrice: "2999",
         newPrice: "899",
@@ -45,7 +45,7 @@ const firstListing = [
     },
     {
         id: 1,
-        img: "model5",
+        img: "model5.webp",
         title: "design full colorc sfnn gsfb ajen",
         mainPrice: "999",
         newPrice: "199",
@@ -53,7 +53,7 @@ const firstListing = [
     },
     {
         id: 4,
-        img: "model8",
+        img: "model8.webp",
         title: "helyey ken Men henley  full color",
         mainPrice: "1499",
         newPrice: "699",
@@ -64,7 +64,7 @@ const firstListing = [
 const secondListing = [
     {
         id: 1,
-        img: "model7",
+        img: "model7.webp",
         title: "Men henley neck design full color",
         mainPrice: "1299",
         newPrice: "299",
@@ -72,7 +72,7 @@ const secondListing = [
     },
     {
         id: 2,
-        img: "model8",
+        img: "model8.webp",
         title: "design full colorc sfnn gsfb ajen",
         mainPrice: "999",
         newPrice: "199",
@@ -80,7 +80,7 @@ const secondListing = [
     },
     {
         id: 3,
-        img: "model1",
+        img: "model1.webp",
         title: "Men hmmffn kofan design full color",
         mainPrice: "2999",
         newPrice: "899",
@@ -88,7 +88,7 @@ const secondListing = [
     },
     {
         id: 4,
-        img: "model5",
+        img: "model5.webp",
         title: "design full colorc sfnn gsfb ajen",
         mainPrice: "999",
         newPrice: "199",
@@ -96,7 +96,7 @@ const secondListing = [
     },
     {
         id: 5,
-        img: "model3",
+        img: "model3.webp",
         title: "colorc full hmmffn sfnn gsfb ajen",
         mainPrice: "1499",
         newPrice: "459",
@@ -104,7 +104,7 @@ const secondListing = [
     },
     {
         id: 6,
-        img: "model1",
+        img: "model1.webp",
         title: "henley full colorc sfnn gsfb ajen",
         mainPrice: "2999",
         newPrice: "799",
@@ -112,7 +112,7 @@ const secondListing = [
     },
     {
         id: 7,
-        img: "model2",
+        img: "model2.webp",
         title: "helyey ken  henley gsfb full color",
         mainPrice: "1499",
         newPrice: "699",
@@ -120,7 +120,7 @@ const secondListing = [
     },
     {
         id: 6,
-        img: "model9",
+        img: "model9.webp",
         title: "Men full colorc design sfnn  ajen",
         mainPrice: "1999",
         newPrice: "699",
@@ -131,7 +131,7 @@ const secondListing = [
 const thirdListing = [
     {
         id: 1,
-        img: "model2",
+        img: "model2.webp",
         title: "Men henley neck design full color",
         mainPrice: "1299",
         newPrice: "299",
@@ -139,7 +139,7 @@ const thirdListing = [
     },
     {
         id: 1,
-        img: "model1",
+        img: "model1.webp",
         title: "Men hmmffn kofan design full color",
         mainPrice: "2999",
         newPrice: "899",
@@ -147,7 +147,7 @@ const thirdListing = [
     },
     {
         id: 1,
-        img: "model5",
+        img: "model5.webp",
         title: "design full colorc sfnn gsfb ajen",
         mainPrice: "999",
         newPrice: "199",
@@ -155,7 +155,7 @@ const thirdListing = [
     },
     {
         id: 4,
-        img: "model8",
+        img: "model8.webp",
         title: "helyey ken Men henley  full color",
         mainPrice: "1499",
         newPrice: "699",

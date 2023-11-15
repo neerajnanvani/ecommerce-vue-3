@@ -1,5 +1,5 @@
 <template>
-    <div class="px-28 my-10 mt-10">
+    <div class="px-28 my-20 mt-10">
         <SectionHeadline :headline="title" />
 
         <div class="grid grid-cols-4 gap-x-8 gap-y-16">

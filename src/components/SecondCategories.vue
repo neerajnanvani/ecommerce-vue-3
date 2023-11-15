@@ -1,5 +1,5 @@
 <template>
-    <div class="px-28 grid grid-cols-3 gap-8">
+    <div class="px-28 grid grid-cols-3 gap-8 my-10">
         <div 
             v-for="(category, index) in secondCategories"
             :key="index"
@@ -16,8 +16,6 @@
 </template>
 <script setup>
 import { secondCategories } from "../resources";
+import { getImageUrl } from '../helpers/link';
 
-const getImageUrl  = (imgLink) => {
-    return new URL(`../assets/${imgLink}`, import.meta.url)
-} 
 </script>
