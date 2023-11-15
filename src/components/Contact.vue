@@ -25,9 +25,9 @@
                 <div class="flex w-full justify-center lg:px-[250px] md:px-28 px-12 lg:mt-10 md:mt-7 mt-4">
                     <input type="text" 
                         placeholder="Enter your email"
-                        class="lg:p-10 md:p-8 p-4 bg-[#b25363] w-full lg:text-2xl md:text-lg text-sm text-white placeholder:text-white"
+                        class="lg:p-6 md:p-4 p-2 bg-[#b25363] w-full lg:text-xl md:text-lg text-sm text-white placeholder:text-white"
                     />
-                    <button class="bg-white lg:px-10 md:px-7 px-4 lg:text-3xl md:text-xl text-base font-bold sub-btn">Subscribe</button>
+                    <button class="bg-white lg:px-6 md:px-5 px-3 lg:text-xl md:text-lg text-base font-bold sub-btn">Subscribe</button>
                 </div>
             </div>
         </div>

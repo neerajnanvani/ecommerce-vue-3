@@ -5,11 +5,11 @@
                 v-if="imgLoaded"
                 :src="getImageUrl(info.img)" 
                 alt="info.title" 
-                class="w-full lg:h-96 md:h-80 h-72 inset-0 object-cover"
+                class="w-full lg:h-[500px] md:h-96 h-84 inset-0 object-cover"
                 loading="lazy"
             />
             <div v-else
-                class="w-full lg:h-96 md:h-80 h-72 border border-gray-200 bg-gray-400 px-6 py-20"
+                class="w-full lg:h-[500px] md:h-80 h-72 border border-gray-200 bg-gray-400 px-6 py-20"
             > 
                 <div v-for="time of 5" :key="time" class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce" />
 

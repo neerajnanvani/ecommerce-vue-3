@@ -170,27 +170,27 @@ const thirdListing = [
 const secondCategories = [
     {
         name: "Ts collection",
-        img: "model5.webp"
+        img: "category1.png"
     },
     {
         name: "ken categories",
-        img: "model1.webp"
+        img: "category2.png"
     },
     {
         name: "Fsfan lfjsn",
-        img: "model6.webp"
+        img: "category3.png"
     },
     {
         name: "female category",
-        img: "model4.webp"
+        img: "category4.png"
     },
     {
         name: "Lorem ipsum",
-        img: "model2.webp"
+        img: "category5.png"
     },
     {
         name: "Men's Categories",
-        img: "model9.webp"
+        img: "category6.png"
     },
     
 ];
