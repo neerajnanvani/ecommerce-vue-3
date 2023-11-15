@@ -1,5 +1,5 @@
 <template>
-    <div class="px-28 my-10 w-full h-full">
+    <div class="px-4 md:px-12 lg:px-28 my-10 w-full h-full">
         <div class="w-full bg-gradient-to-r from-[#AB001E] to-[#770015] relative h-62">
 
             <div class="absolute">
@@ -15,19 +15,19 @@
             </div>
 
 
-            <div class="py-10">
-                <p class="text-center font-semibold text-4xl text-white">
+            <div class="lg:py-10 md:py-7 py-3">
+                <p class="text-center font-semibold lg:text-4xl md:text-2xl text-lg text-white">
                     Subscribe to get updates on exciting offers
                     <br />
                     & deals
                 </p>
 
-                <div class="flex w-full justify-center px-[250px] mt-10">
+                <div class="flex w-full justify-center lg:px-[250px] md:px-28 px-12 lg:mt-10 md:mt-7 mt-4">
                     <input type="text" 
                         placeholder="Enter your email"
-                        class="p-10 bg-[#b25363] w-full text-2xl text-white placeholder:text-white"
+                        class="lg:p-10 md:p-8 p-4 bg-[#b25363] w-full lg:text-2xl md:text-lg text-sm text-white placeholder:text-white"
                     />
-                    <button class="bg-white px-10 text-3xl font-bold sub-btn">Subscribe</button>
+                    <button class="bg-white lg:px-10 md:px-7 px-4 lg:text-3xl md:text-xl text-base font-bold sub-btn">Subscribe</button>
                 </div>
             </div>
                 

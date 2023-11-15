@@ -1,6 +1,6 @@
 <template>
     <div class="shadow-xl z-10 sticky top-0">
-        <div class="bg-[#1F1F1F] text-white px-28 flex justify-between py-4">
+        <div class="bg-[#1F1F1F] text-white px-28 md:flex justify-between py-4 hidden">
             <p>
                 Welcome to our store Hiscraves
             </p>
@@ -13,7 +13,7 @@
                </span> 
             </div>
         </div>
-        <div class="p-8 flex px-20 justify-around bg-white ">
+        <div class="md:p-8 p-4 flex px-10 sm:px-14 md:px-20 justify-between md:justify-around bg-white ">
             <button>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M16 18V20H5V18H16ZM21 11V13H3V11H21ZM19 4V6H8V4H19Z" fill="#770015"/>
@@ -24,7 +24,7 @@
                 Logo Here
             </div>
             
-            <div class="flex text-gray-600">
+            <div class="md:flex text-gray-600 hidden">
                 <component 
                     v-for="(icon, index) in navOptions" 
                     :key="index" 

@@ -3,9 +3,9 @@
         <img 
             :src=getImageUrl(categoryImg)
             :alt="categoryTitle"
-            class="w-56 h-56 rounded-full my-4"
+            class="w-24 md:w-32 md:h-32 h-24 rounded-full my-4"
         />
-        <p class="text-center text-xl font-bold">
+        <p class="text-center md:text-xl text-base font-bold">
            {{categoryTitle}}
         </p>
     </div>

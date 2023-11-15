@@ -25,11 +25,11 @@
             </div>
             </div>
         </div>
-        <p class="text-center text-lg">
+        <p class="text-center md:text-lg text-base">
             {{info.title}}
         </p>
         <div class="text-center">
-            <span class="text-2xl font-bold">
+            <span class="text-xl font-bold">
                 ₹ {{info.newPrice}}
             </span>
             <span class="text-red-700 strike ml-2">
@@ -38,12 +38,12 @@
                 </s>
             </span>
         </div>
-        <div class="flex space-x-5 mt-3 justify-center">
+        <div class="flex md:space-x-5 space-x-2 mt-3 justify-center">
             <div v-for="size in info.sizes"
                 :key="size"
-                class="border border-gray-200 py-2 w-12 text-center"
+                class="border border-gray-200 md:py-2 py-1 md:w-12 w-8 text-center"
             >
-                <span class="text-base font-semibold">
+                <span class="md:text-base text-sm font-semibold">
                     {{size}}
                 </span>
             </div>
