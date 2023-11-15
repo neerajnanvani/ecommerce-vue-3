@@ -1,5 +1,6 @@
 <template>
     <div class="shadow-xl z-10 sticky top-0">
+        <!-- Hiding the black header top on small devices -->
         <div class="bg-[#1F1F1F] text-white px-28 md:flex justify-between py-4 hidden">
             <p>
                 Welcome to our store Hiscraves

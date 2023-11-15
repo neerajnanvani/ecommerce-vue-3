@@ -1,4 +1,5 @@
 <template>
+  <!-- Listing all the components here because we don't have any multiple page -->
   <div>
     <Header />
     <Hero />

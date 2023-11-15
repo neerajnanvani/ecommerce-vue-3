@@ -30,14 +30,9 @@
                     <button class="bg-white lg:px-10 md:px-7 px-4 lg:text-3xl md:text-xl text-base font-bold sub-btn">Subscribe</button>
                 </div>
             </div>
-                
-
         </div>
     </div>
 </template>
-<script setup>
-
-</script>
 <style scoped>
 
 p {

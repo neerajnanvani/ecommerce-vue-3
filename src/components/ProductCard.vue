@@ -11,11 +11,7 @@
             <div v-else
                 class="w-full lg:h-96 md:h-80 h-72 border border-gray-200 bg-gray-400 px-6 py-20"
             > 
-                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
-                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
-                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
-                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
-                <div class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce "></div>
+                <div v-for="time of 5" :key="time" class="h-1/5 bg-gray-200 m-2  rounded-xl animate-bounce" />
 
             </div>
 
@@ -68,10 +64,12 @@
 import { getImageUrl } from '../helpers/link';
 import {ref} from "vue";
 
-
+// A indicator to check wheather images load ! Tried to replicate api call
 const imgLoaded = ref(false);
 
-
+/**
+ * Set Timeout function to enable images after 4 seconds
+ */
 const loadImg = setTimeout(() => {
     imgLoaded.value = true;
     loadImg();

@@ -5,7 +5,7 @@
             :key="index"
             class="relative"
         >
-            <img :src="getImageUrl(category.img)" alt="" class="w-full">
+            <img :src="getImageUrl(category.img)" :alt="category.name" class="w-full">
             <div class="backdrop-blur-xl bg-white/30 w-full md:h-16 lg:h-20 h-12 absolute lg:text-3xl md:text-xl text-base bottom-0">
                 <p class="flex justify-center items-center h-full text-white">
                     {{category.name}}

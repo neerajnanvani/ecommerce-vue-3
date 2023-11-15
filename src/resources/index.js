@@ -1,3 +1,7 @@
+/**
+ * Using this file for data centralisation, and dummy data handling
+ */
+
 const firstCategories = [
     {
         name: "ZEN Categories",
