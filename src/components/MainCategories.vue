@@ -1,6 +1,6 @@
 <template>
-    <div class="px-4">
-        <div class="my-10 grid grid-cols-6 md:grid-cols-3 gap-y-4">
+    <div class="px-4 py-10">
+        <div class="my-10 grid  grid-cols-6 gap-y-4">
             <Category v-for="category in firstCategories"
             :key="category.name"
             :categoryImg="category.img"

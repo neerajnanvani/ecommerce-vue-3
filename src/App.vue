@@ -12,6 +12,8 @@
     <Banner image="banner1.png" />
     <Promotions2 />
     <Features />
+    <Contact />
+    <Footer />
   </div>
 </template>
 <script setup>
@@ -24,8 +26,15 @@ import Promotions from './components/Promotions.vue';
 import SecondCategories from './components/SecondCategories.vue';
 import Promotions2 from './components/Promotions2.vue';
 import Features from './components/Features.vue';
+import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
 
 import { firstListing, secondListing, thirdListing } from './resources';
 
-</script>
 
+</script>
+<style>
+* {
+  font-family: Montserrat;
+}
+</style>

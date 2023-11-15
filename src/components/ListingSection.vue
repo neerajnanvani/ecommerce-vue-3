@@ -2,14 +2,14 @@
     <div class="px-28 my-10 mt-10">
         <SectionHeadline :headline="title" />
 
-        <div class="grid grid-cols-4 gap-x-8">
+        <div class="grid grid-cols-4 gap-x-8 gap-y-16">
             <ProductCard 
                 v-for="(product,index) in products"
                 :key="index"
                 :info="product"
             />
         </div>
-        <div class="my-20 flex justify-center">
+        <div class="my-10 flex justify-center">
             <button class="px-16 py-3 bg-red-900 text-white text-2xl">
                 VIEW ALL
             </button>
