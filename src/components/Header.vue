@@ -1,6 +1,6 @@
 <template>
     <div class="shadow-xl z-10 sticky top-0">
-        <div class="bg-black text-white px-28 flex justify-between py-4">
+        <div class="bg-[#1F1F1F] text-white px-28 flex justify-between py-4">
             <p>
                 Welcome to our store Hiscraves
             </p>
